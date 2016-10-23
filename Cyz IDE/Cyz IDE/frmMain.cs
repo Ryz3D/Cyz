@@ -15,9 +15,13 @@ namespace Cyz_IDE
     {
         private string openFile;
 
+        private FileManager fileManager;
+
         public frmMain()
         {
             InitializeComponent();
+
+            fileManager = new LocalFiles();
         }
 
         private void smiOpen_Click(object sender, EventArgs e)
@@ -28,7 +32,7 @@ namespace Cyz_IDE
         private void ofdOpen_FileOk(object sender, CancelEventArgs e)
         {
             openFile = ofdOpen.FileName;
-            rtbCode.Lines = File.ReadAllLines(openFile);
+            rtbCode.Lines = fileManager.GetLines(openFile);
         }
 
         private void smiSave_Click(object sender, EventArgs e)
@@ -39,7 +43,7 @@ namespace Cyz_IDE
                 openFile = sfdSave.FileName;
             }
             if (openFile != null && openFile != "") //Checking again in case the User clicked 'Cancel'
-                File.WriteAllLines(openFile, rtbCode.Lines);
+                fileManager.SetLines(openFile, rtbCode.Lines);
         }
 
         private void sfdSave_FileOk(object sender, CancelEventArgs e)
