@@ -1,1 +1,10 @@
 C:\Users\Mirco\Desktop\VS\Cyz IDE\Cyz IDE\bin\Debug\Cyz IDE.exe.config
+C:\Users\Mirco\Documents\GitHub\Cyz\Cyz IDE\Cyz IDE\bin\Debug\Cyz IDE.exe.config
+C:\Users\Mirco\Documents\GitHub\Cyz\Cyz IDE\Cyz IDE\bin\Debug\Cyz IDE.exe
+C:\Users\Mirco\Documents\GitHub\Cyz\Cyz IDE\Cyz IDE\bin\Debug\Cyz IDE.pdb
+C:\Users\Mirco\Documents\GitHub\Cyz\Cyz IDE\Cyz IDE\obj\Debug\Cyz IDE.csprojResolveAssemblyReference.cache
+C:\Users\Mirco\Documents\GitHub\Cyz\Cyz IDE\Cyz IDE\obj\Debug\Cyz_IDE.frmMain.resources
+C:\Users\Mirco\Documents\GitHub\Cyz\Cyz IDE\Cyz IDE\obj\Debug\Cyz_IDE.Properties.Resources.resources
+C:\Users\Mirco\Documents\GitHub\Cyz\Cyz IDE\Cyz IDE\obj\Debug\Cyz IDE.csproj.GenerateResource.Cache
+C:\Users\Mirco\Documents\GitHub\Cyz\Cyz IDE\Cyz IDE\obj\Debug\Cyz IDE.exe
+C:\Users\Mirco\Documents\GitHub\Cyz\Cyz IDE\Cyz IDE\obj\Debug\Cyz IDE.pdb
